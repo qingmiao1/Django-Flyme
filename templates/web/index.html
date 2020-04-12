@@ -1,0 +1,232 @@
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>魅族官网 - 魅族 16T 大屏娱乐旗舰手机,玩出我的热爱</title>
+   <meta name="description" content="欢迎登录和注册 Flyme 账号，您可以体验手机云服务功能，包括：在线下载应用，同步手机数据和查找手机等，让您的手机管理更加智能。" />
+   <meta name="keywords" content="魅族  meizu 登录flyme 云服务  查找手机  充值账号  MX M9 MX2" />
+{#    <link href="//www-res.flyme.cn/resources/flymeos/v4/assets/common/favicon.ico" rel="shortcut icon">#}
+    <link href="{% static 'web/img/favicon2.ico' %}" rel="shortcut icon">
+    <!-- Bootstrap -->
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+{#    <link href="{% static 'web/css/bootstrap-responsive.min.css' %}" rel="stylesheet">#}
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="{% static 'web/js/jquery-3.3.1.min.js' %}"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{% static 'web/js/bootstrap.min.js' %}"></script>
+    <!-- 兼任ie9以下 -->
+    <!--[if lt IE 9]>
+          <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+          <script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <!-- 自定义 -->
+    <link rel="stylesheet" type="text/css" href="{% static 'web/css/base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'web/css/index.css' %}">
+{#    <script type="text/javascript" src="{% static 'web/js/rem.js' %}"></script>#}
+{#    <script type="text/javascript" src="{% static 'web/js/topNav.js' %}"></script>#}
+    <script type="text/javascript" src="{% static 'web/js/login.js' %}"></script>
+</head>
+<body>
+      <!-- 导航 -->
+      {%  include 'web/base.html' %}
+      <!-- 导航 -->
+       <!--广告-->
+       <div class="container ad-outer">
+           <div class="row ad-box">
+               <div class="list-box">
+                <ul>
+                    <li><a href="">手机</a></li>
+                    <li><a href="">智能设备</a></li>
+                    <li><a href="">智能穿戴</a></li>
+                    <li><a href="">游戏设备</a></li>
+                    <li><a href="">数码影音</a></li>
+                    <li><a href="">手机配件/移动电源</a></li>
+                    <li><a href="">移动存储/办公设备</a></li>
+                    <li><a href="">生活周边</a></li>
+                </ul>
+               </div>
+               <div class="ad-img">
+                   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                      </ol>
+
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                          <img src="{% static 'goods/309.png' %}" alt="...">
+                        </div>
+                        <div class="item">
+                          <img src="{% static 'goods/9a99.jpg' %}" alt="...">
+                        </div>
+                         <div class="item">
+                          <img src="{% static 'goods/fc1ce.jpg' %}" alt="...">
+                        </div>
+                          <div class="item">
+                          <img src="{% static 'goods/94adf.jpg' %}" alt="...">
+                        </div>
+                      </div>
+                    </div>
+               </div>
+           </div>
+       </div>
+       <!--广告-->
+       <!--热品推荐-->
+         <div class="container">
+             <div class="row hot-goods-t-outer">
+                 <div class="hot-goods-title">
+                     <h3>热品推荐</h3>
+                 </div>
+             </div>
+             <div class="col-md-2 col-sm-4 col-xs-6">
+                  <a class="goods-img">
+                    <img src="{% static 'goods/m_1585904955.7959044.jpg' %}" alt="">
+                  </a>
+                  <h5>湖南劲仔小鱼</h5>
+                  <h6>月销累计超<span>10000</span>件</h6>
+                  <h7>￥<span>899</span>起&nbsp;&nbsp;&nbsp;<del>￥900</del></h7>
+               </div>
+             <div class="col-md-2 col-sm-4 col-xs-6">
+                  <a class="goods-img">
+                    <img src="{% static 'goods/m_1585904955.7959044.jpg' %}" alt="">
+                  </a>
+                  <h5>湖南劲仔小鱼</h5>
+                  <h6>月销累计超<span>10000</span>件</h6>
+                  <h7>￥<span>899</span>起&nbsp;&nbsp;&nbsp;<del>￥900</del></h7>
+               </div>
+             <div class="col-md-2 col-sm-4 col-xs-6">
+                  <a class="goods-img">
+                    <img src="{% static 'goods/m_1585904955.7959044.jpg' %}" alt="">
+                  </a>
+                  <h5>湖南劲仔小鱼</h5>
+                  <h6>月销累计超<span>10000</span>件</h6>
+                  <h7>￥<span>899</span>起&nbsp;&nbsp;&nbsp;<del>￥900</del></h7>
+               </div>
+             <div class="col-md-2 col-sm-4 col-xs-6">
+                  <a class="goods-img">
+                    <img src="{% static 'goods/m_1585904955.7959044.jpg' %}" alt="">
+                  </a>
+                  <h5>湖南劲仔小鱼</h5>
+                  <h6>月销累计超<span>10000</span>件</h6>
+                  <h7>￥<span>899</span>起&nbsp;&nbsp;&nbsp;<del>￥900</del></h7>
+               </div>
+             <div class="col-md-2 col-sm-4 col-xs-6">
+                  <a class="goods-img">
+                    <img src="{% static 'goods/m_1585904955.7959044.jpg' %}" alt="">
+                  </a>
+                  <h5>湖南劲仔小鱼</h5>
+                  <h6>月销累计超<span>10000</span>件</h6>
+                  <h7>￥<span>899</span>起&nbsp;&nbsp;&nbsp;<del>￥900</del></h7>
+               </div>
+             <div class="col-md-2 col-sm-4 col-xs-6">
+                  <a class="goods-img">
+                    <img src="{% static 'goods/m_1585904955.7959044.jpg' %}" alt="">
+                  </a>
+                  <h5>湖南劲仔小鱼</h5>
+                  <h6>月销累计超<span>10000</span>件</h6>
+                  <h7>￥<span>899</span>起&nbsp;&nbsp;&nbsp;<del>￥900</del></h7>
+               </div>
+
+         </div>
+       <!--热品推荐-->
+       <!--手机/数码配件-->
+       <div class="container s-s-outer">
+           <div class="row">
+               <div class="col-md-3 col-sm-3 col-xm-3">
+                   <h3 class="ceil-phone">手机</h3>
+                   <span class="hot-phone"><a href="">热销机型</a></span>
+               </div>
+                <div class="col-md-9 col-sm-9 col-xm-9">
+                   <a class="phone">
+                      更多&nbsp;&nbsp;>
+                   </a>
+               </div>
+           </div>
+           <div class="col-md-2">
+               <div class="phone-outer">
+
+               </div>
+           </div>
+       </div>
+       <!--手机/数码配件-->
+      <!-- 商品列表 -->
+{#      <div class="goods-list">#}
+{#        <div class="row">#}
+{#         {% for goods in goodslist %}#}
+{#          <div class="col-md-3 col-sm-6 col-xs-6">#}
+{#            <div class="gl-item">#}
+{#              <div class="compare-btn-list" >#}
+{#                  <i class="iconfont  icon-duibi compare-duibi"></i>#}
+{#                  <span class="hidden-xs hidden-sm">对比</span>#}
+{#              </div>#}
+{#              <div class="gl-item-wrap">#}
+{#                <!-- Tab panes -->#}
+{#                <div class="tab-content">#}
+{#                  <div role="tabpanel" class="tab-pane active mod-pic" id="list-p1">#}
+{#                    <a href="{% url 'detail' goods.id %}">#}
+{#                      <img class="lazy j-modProduct" src="/static/goods/m_{{ goods.picname }}" width="220" height="220">#}
+{#                    </a>#}
+{#                  </div>#}
+{#                </div>#}
+{##}
+{#                <!-- Nav tabs -->#}
+{#                <div class="item-slide j-pro-wrap  hidden-xs hidden-sm">#}
+{#                  <ul class="nav nav-tabs  " role="tablist">#}
+{#                    <li role="presentation" class="active">#}
+{#                      <a href="#list-p1" aria-controls="list-p1" role="tab" data-toggle="tab">#}
+{#                        <img class="lazy"  src="/static/goods/s_{{ goods.picname }}" style="display: inline;" width="40" height="40">#}
+{#                      </a>#}
+{#                    </li>#}
+{#                  </ul>#}
+{#                </div>#}
+{#                <div class="slide-btn j-modBtns" style="display: none;">#}
+{#                    <span  class="prev iconfont disabled"></span>#}
+{#                    <span  class="next iconfont"></span>#}
+{#                </div>#}
+{##}
+{#                <h2>{{ goods.goods}}</h2>#}
+{#                <h3 class="red" title="双11促销：满500，减100！">#}
+{#                双11促销：满500，减100！#}
+{#                </h3>#}
+{#                <dd class="mod-price">#}
+{#                    <span>￥</span>#}
+{#                    <span class="vm-price">{{ goods.price }}</span>#}
+{#                    <span class="vm-start">起</span>#}
+{#                </dd>#}
+{#              </div>#}
+{#            </div>#}
+{#          </div>#}
+{#         {% endfor %}#}
+{#        </div>#}
+{#      </div>#}
+      <!-- 商品列表 -->
+
+<nav aria-label="Page navigation" class="text-center">
+        <ul class="pagination">
+          <li>
+{#            <a href="{% url 'list' pIndex|add:-1 %}?{{ mywhere|join:'&' }}" aria-label="Previous">#}
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          {% for p in plist %}
+            <li {% if pIndex == p %}class="active"{% endif %}>
+              <a href="{% url 'list' p %}?{{ mywhere|join:'&' }}">{{p}}</a>
+            </li>
+          {% endfor %}
+          <li>
+{#            <a href="{% url 'list' pIndex|add:1 %}?{{ mywhere|join:'&' }}" aria-label="Next">#}
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+</body>
+</html>

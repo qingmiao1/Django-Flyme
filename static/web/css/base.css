@@ -1,0 +1,72 @@
+.layout-header-logo-item{
+     height: auto;
+    padding-top: 25px;
+    padding-bottom: 28px;
+    /*max-width: 1200px;*/
+    margin:0px auto;
+}
+#logo-item{
+    float:left;
+}
+.layout-header-logo-link{
+    height: 20px;
+    width: 110px;
+    /*overflow: hidden;*/
+    display: block;
+}
+.layout-header-logo-link i{
+    height: 100%;
+    width: 100%;
+    display: block;
+    background: url('../img/base.png') -1px -5px no-repeat;
+}
+.nav-bar ul{
+    list-style: none;
+}
+.nav-bar ul li{
+    float:right;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+}
+
+.layout-header-service-item{
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.layout-user-downmenu-list{
+  position: absolute;
+  width: 98px;
+  z-index: 1;
+  background-color: #fff;
+border-radius: 2px;
+box-sizing: border-box;
+text-align: center;
+padding: 15px 0;
+margin-left: -40px;;
+box-shadow: 0 0 5px rgba(0,0,0,.1);
+ display:none;
+}
+.layout-user-downmenu-item{
+    font-size: 12px;
+    display: block;
+    margin: 8px auto;
+    padding: 0;
+    width: 100%;
+
+}
+.layout-user-downmenu-item a{
+    z-index: 4;
+    color: #515151;
+    text-decoration: none;
+}
+.layout-header-service-item:hover .layout-user-downmenu-list{
+    display: block;
+}
+.layout-user-downmenu-item a:hover{
+    color:cornflowerblue;
+}

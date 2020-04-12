@@ -1,0 +1,198 @@
+/*logo部分*/
+.logoOuter{
+    width: 1135px;
+}
+
+.logoTop{
+    height: auto;
+    padding-top: 28px;
+    padding-bottom: 40px;
+    /*max-width: 1200px;*/
+    margin:0px auto;
+
+}
+.meizuoLogo{
+    /*float: left;*/
+    height: 20px;
+    width: 110px;
+    /*overflow: hidden;*/
+    display: block;
+}
+.meizuoLogo i{
+    height: 100%;
+    width: 100%;
+    display: block;
+    background: url('../img/base.png') -1px -5px no-repeat;
+}
+/*logo部分结束*/
+
+/*bg开始*/
+.error-msg{
+    position: relative;
+    height: 33px;
+    display: table;
+    width: 100%;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    border: solid 1px #ffc2b3;
+    background: #ffd1ca;
+    border-radius: 2px;
+    padding: 0px;
+}
+.err-ico{
+    background: url('../img/error-ico.png');
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+.tip-font{
+    color: #666;
+    font-size: 12px;
+    padding-right: 25px;
+    padding-left: 33px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.bgOuter{
+    position: relative;
+    width: 100%;
+    min-height: 750px;
+    max-height: 1080px;
+    background: linear-gradient(180deg, #edfcfd 0%, #faffff 100%);
+}
+.bgOuter:before{
+    position: absolute;
+    display: block;
+    content: ' ';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+     margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    min-width: 1240px;
+    max-width: 1920px;
+    background: url("../img/pic-flyme.png") no-repeat;
+    background-position: 50% 50%;
+}
+.bg-box{
+    position: relative;
+    width: 1240px;
+    height: 750px;
+    margin: 0 auto;
+}
+
+.form-box{
+    position: absolute;
+    width: 298px;
+    padding: 35px 35px 10px;
+    top: 14%;
+    right: 177px;
+    background-color: #FFF;
+    border-radius: 2px;
+    box-shadow: 0 6px 12px 0 rgba(138,153,150,0.15);
+}
+.form-title{
+    margin-top: 35px;
+    font-size: 18px;
+    text-align: center;
+    color: #515151;
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+}
+.form-title h3{
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.validateCode{
+    position: relative;
+    width: 60%;
+}
+.validateCode img{
+    vertical-align: middle;
+    display: inline-block;
+    position: absolute;
+    top: 1px;
+    left: 103%;
+    height: 30px;
+    width: 90px;
+    border-radius: 4px;
+}
+.submit{
+    width: 100%;
+    background-color: #387aff;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    height: 46px;
+}
+.submit:hover{
+    background-color: rgb(48,88,223);
+    color: #fff;
+}
+.forgetCode{
+    float:right;
+}
+a:hover{
+    text-decoration: none;
+}
+/*bg结束*/
+/*底部开始*/
+.foot-line{
+    background-color: #888;
+    margin: 0px 5px;
+    width: 1px;
+    height: 10px;
+}
+.foot-language{
+    position: relative;
+    display: inline-block;
+    width: 75px;
+    cursor: default;
+    background: url(../img/base.png) -75px -150px no-repeat;
+    text-align: left;
+}
+.foot-language-tips{
+    position: absolute;
+    top: -50px;
+    left: -5px;
+    border: solid 1px #E4E7E9;
+    background-color: #FFF;
+    border-radius: 2px;
+    box-shadow: 0 6px 12px 0 rgba(138,153,150,0.15);
+    line-height: 26px;
+    width: 75px;
+    text-align: center;
+    display: none;
+}
+.foot-language-tips a:first-child{
+    padding-bottom: 2px;
+    padding-top: 2px;
+     border-bottom: solid 1px #E4E7E9;
+}
+.foot-language:hover .foot-language-tips{
+  display: inline-block;
+}
+.footer-service{
+    display: inline-block;
+    margin-left: 30px;
+}
+.service-online{
+    margin-left: 20px;
+}
+.copyrightInner{
+    height: 50px;
+    line-height: 50px;
+    width: 1000px;
+    margin: 0px auto;
+}
+/*底部结束*/

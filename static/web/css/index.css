@@ -1,0 +1,136 @@
+/*ad-start*/
+.ad-outer{
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    background: rgb(125,167,187);
+}
+.ad-box{
+    margin: 0px auto;
+}
+.list-box{
+    width: 20%;
+    height: 100%;
+    float: left;
+    background: rgb(223,230,223);
+}
+.ad-img{
+    float: right;
+    width:80%;
+}
+.list-box ul{
+   margin-bottom: 0px;
+    padding-left: 0px;
+}
+.list-box ul  li{
+     height: 50px;
+    line-height: 50px;
+     list-style: none;
+    padding-left:40px;
+}
+.list-box ul li a{
+    text-decoration: none;
+    color:rgb(113,113,108);
+}
+.carousel-inner>.item>img{
+    height: 400px;
+}
+/*ad-end*/
+
+/*hot-goods*/
+.hot-goods-t-outer{
+    padding-left:30px;
+    padding-right: 30px;
+
+}
+.hot-goods-list li{
+    list-style: none;
+    border:1px solid red;
+    width: 500px;
+
+
+}
+.hot-goods-list li  a{
+    text-decoration: none;
+}
+.col-md-2,.col-sm-4, .col-xs-6{
+    border: 2px solid rgb(247,247,247);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-top: 10px;
+    z-index:2;
+}
+.goods-img{
+    display: inline-block;
+    width:100%;
+    height: 90%;
+}
+.goods-img img{
+    width: 100%;
+    height: 100%;
+}
+del{
+    display: inline-block;
+}
+h5{
+    font-weight: bold;
+}
+h5,h6,h7{
+    margin: 4px;
+}
+/*hot-goods*/
+
+/*手机/数码配件*/
+.s-s-outer{
+    background: rgb(245,245,245);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.col-md-3,col-sm-3,colo-xs-3{
+    border: 1px solid red;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+
+.col-md-9,col-sm-9,colo-xs-9{
+    border: 1px solid red;
+    padding-right: 25px;
+    padding-left: 10px;
+    padding-bottom: 14px;
+    padding-top: 18px;
+    width: 75%;
+    float: right;
+    margin-top: 5px;
+}
+/*@media screen and(max-width:768px){*/
+/*    .col-md-3,col-sm-3,colo-xs-3{*/
+/*        width: 25%;*/
+/*    }*/
+
+/*}*/
+.col-md-3,col-sm-3,colo-xs-3{
+         width: 25%;
+         float: left;
+    }
+.hot-phone{
+    margin-top: -35px;
+   float: right;
+}
+.hot-phone a{
+     text-decoration: none;
+    font-size: 12px
+}
+.s-s-outer .phone{
+    text-decoration: none;
+}
+.phone{
+    float: right;
+}
+.ceil-phone{
+ margin: 10px 10px;
+}
+/*手机/数码配件*/
